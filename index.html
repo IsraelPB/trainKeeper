@@ -1,82 +1,86 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>MIDGAR TIMER</title>
 
-<link rel="stylesheet" type="text/css" href="assets/style/style.css">
-<!-- Jquey CDN -->
-<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous">
-</script>
+	<link rel="stylesheet" type="text/css" href="assets/style/style.css">
+	<!-- Jquey CDN -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	 crossorigin="anonymous">
+	</script>
 
-<!-- Bootstrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<!-- FireBase -->
-<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+	<!-- FireBase -->
+	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
 
-<!-- MomentJs CDN-->
-<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+	<!-- MomentJs CDN-->
+	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
 </head>
+
 <body>
 	<!-- Header -->
-	<div class="container"> 
-		<div class="aimee"> 
-		<div id="header" class="jumbotron text-center">
-			<h1>WELCOME TO SECTOR 7</h1>
-			<br>
+	<div class="container">
+		<div class="aimee">
+			<div id="header" class="jumbotron text-center">
+				<h1>WELCOME TO SECTOR 7</h1>
+				<br>
+			</div>
 		</div>
-	</div>
 		<br>
 		<!-- Train schedule -->
 		<div class="panel panel-primary" id="lupe">
-		  		<!-- Default panel contents -->
-			  <div class="mainpanel">CURRENT TRAIN SCHEDULE</div>
-			 
-			  <!-- Table -->
-			  <table class="table" id="table2">
-			    <tr>
-			    	<th>TRAIN NAME</th>
-			    	<th>DESTINATION</th>
-			    	<th>FREQUENCY</th>
-			    	<th>NEXT ARRIVAL</th>	
-			    	<th>MINUTES AWAY</th>
-			    </tr>
-			  </table>
-		</div>
-		
-		<!-- Train Input -->	  
-	  	<div id="input" class="panel panel-primary">
-		  <div class="mainpanel">ADD TRAINS</div>
-		
-		  <div class="naomi">
+			<!-- Default panel contents -->
+			<div class="mainpanel">CURRENT TRAIN SCHEDULE</div>
 
-		 <div class="panel-body">
-			    <div class="form-group">
-	    			<label id="exampleInputEmail1">TRAIN NAME</label>
-	    			<input type="email" class="form-control" id="trainName">
-	 			</div>
-	 			<div class="form-group">
-	    			<label id="exampleInputEmail1">DESTINATION</label>
-	    			<input type="email" class="form-control" id="dest">
-	 			</div>
-	 			<div class="form-group">
-	    			<label id="exampleInputEmail1">FIRST TRAIN TIME (Military Time)</label>
-	    			<input type="email" class="form-control" id="firstTrainTime">
-	 			</div>
-	 			<div class="form-group">
-	    			<label id="exampleInputEmail1">FREQUENCY (min)</label>
-	    			<input type="email" class="form-control" id="freq">
-	 			</div>
-	 			<button type="submit" class="btn btn-primary" id='submit'>SUBMIT</button>
-		  </div>
-		</div> 
+			<!-- Table -->
+			<table class="table" id="table2">
+				<tr>
+					<th>TRAIN NAME</th>
+					<th>DESTINATION</th>
+					<th>FREQUENCY</th>
+					<th>NEXT ARRIVAL</th>
+					<th>MINUTES AWAY</th>
+				</tr>
+			</table>
+		</div>
+
+		<!-- Train Input -->
+		<div id="input" class="panel panel-primary">
+			<div class="mainpanel">ADD TRAINS</div>
+
+			<div class="naomi">
+
+				<div class="panel-body">
+					<div class="form-group">
+						<label id="exampleInputEmail1">TRAIN NAME:</label>
+						<input type="email" class="form-control" id="trainName">
+						<hr>
+					</div>
+					<div class="form-group">
+						<label id="exampleInputEmail1">DESTINATION:</label>
+						<input type="email" class="form-control" id="dest">
+						<hr>
+					</div>
+					<div class="form-group">
+						<label id="exampleInputEmail1">FIRST TRAIN TIME (Military Time):</label>
+						<input type="email" class="form-control" id="firstTrainTime">
+					</div>
+					<div class="form-group">
+						<label id="exampleInputEmail1">FREQUENCY (Minutes):</label>
+						<input type="email" class="form-control" id="freq">
+						<hr>
+					</div>
+					<button type="submit" class="btn btn-primary" id='submit'>SUBMIT</button>
+				</div>
+			</div>
 		</div>
 	</div>
 	</div>
-	
+
 	<!-- Javascript -->
 	<script type="text/javascript" src="assets/javascript/javascript.js"></script>
 </body>
