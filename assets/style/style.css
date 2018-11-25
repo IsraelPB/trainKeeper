@@ -1,0 +1,121 @@
+.container{
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    
+}
+body{
+    color: white;
+    background-image:  url("../images/ffback.jpg");
+
+}
+
+#jumbotron{
+    border:3px;
+    border-color: aliceblue;
+    border-radius: 15px;
+}
+#header{
+   
+    margin-bottom: 0%;
+    border-style: solid;
+    border: 5px;
+    border-color: white;
+    border-radius: 15px;
+    height: 200px;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+
+}
+#input{
+    
+    width: 100%;
+}
+
+.aimee{
+    margin-top: 100px;
+    border:5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+
+.panel-heading{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+
+
+}
+.mainpanel{
+    text-align: center;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    background-color: blue;
+    padding: 15px;
+    color:white;
+    border-radius: 15px;
+}
+.panel-body{
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+}
+.table{
+    background-color: blue;
+    color: white;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    background-color: blue;
+    padding: 15px;
+    color:white;
+    border-radius: 15px;
+
+}
+
+#submit{
+    background-color: transparent;
+    color: white;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    background-color: blue;
+    margin-left: 510px;
+
+    color:white;
+
+}
+.panel-body{
+    border-color: white;
+    border: 5px;
+    border-radius: 15px;
+}
+.naomi{
+    
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+
+#input {
+    
+    background-color: transparent;
+     border: none;
+     border-radius: 15px;
+
+
+
+
+}
+
+#lupe{
+    border-radius: 15px;
+}
+#table2{
+    border-radius: 15px;
+}
+
+
+   
