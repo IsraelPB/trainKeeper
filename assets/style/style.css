@@ -73,7 +73,10 @@ body{
     border-radius: 15px;
 
 }
-
+#submit:hover{
+    background-color: rebeccapurple;
+    
+}
 #submit{
     background-color: transparent;
     color: white;
